@@ -238,8 +238,6 @@ module.exports = {
         "i"
       );
       var reAveLetter = new RegExp(".*\\b(ave.?|avenue).*\\b[a-zA-Z]\\b", "i");
-      // var reNoSuffix = new RegExp("\\b\\d+[a-z]?\\s[a-zA-Z0-9_ ]+\\b", "i");
-
       var reNoSuffix = new RegExp("\\b\\d+[a-z]?\\s[a-zA-Z0-9_ -]+\\b", "i");
 
       if (streetString.match(reAveLetter)) {
