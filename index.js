@@ -395,6 +395,7 @@ module.exports = {
       );
     }
 
+    result["formattedAddress"]?.trim();
     return result;
   },
 
